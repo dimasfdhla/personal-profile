@@ -558,13 +558,13 @@ footer {
   }
   .nav-menu {
     position: fixed;
-    top: 80px;
+    top: 70px;
     left: -100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(20px);
+    background: rgba(43, 30, 30, 0.7);
+    backdrop-filter: blur(10px);
     width: 100%;
     min-height: 450px;
     height: 90vh;
