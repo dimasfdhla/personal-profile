@@ -385,9 +385,16 @@ h3 {
   height: 250px;
   background: #750e21;
   border-radius: 20px;
-  box-shadow: 1px 8px 10px 2px #30060d;
+  box-shadow: 1px 8px 10px 2px #969696;
   overflow: hidden;
 }
+
+.project-box img {
+  max-width: 100%;
+  height: 250px;
+  display: block;
+}
+
 .project-box > i {
   font-size: 50px;
   color: white;
@@ -395,19 +402,9 @@ h3 {
 }
 .project-box label {
   font-size: 15px;
-  color: #777;
+  color: #ffffff;
 }
-.project-box::after,
-.contact-info::after {
-  content: "";
-  position: absolute;
-  bottom: -100%;
-  background: white;
-  width: 100%;
-  height: 100%;
-  transition: 0.4s;
-  z-index: 1;
-}
+
 .project-box:hover.project-box::after,
 .contact-info:hover.contact-info::after {
   bottom: 0;
